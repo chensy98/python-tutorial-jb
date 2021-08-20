@@ -140,6 +140,7 @@ def core_system(root_folder):
 # parser = argparse.ArgumentParser()
 args = sys.argv
 
+# Only for bug in the tests
 os.system("mv module/root_folder/files/stage/src/reviewSlider.js module/root_folder/files/stage/src/reviewslider.js")
 os.system("mv module/root_folder/files/stage/src/toggleMiniMenu.js module/root_folder/files/stage/src/toggleminimenu.js")
 
